@@ -6,13 +6,5 @@ from django.http import HttpResponse # Nunca deixar de importar django.http Http
 
 
 def home(request):
-    return HttpResponse('HOME 1')
+    return render(request, 'global/home.html')
 
-def sobre(request):
-    return HttpResponse('Sobre 2')
-
-def contato(request):
-    return HttpResponse('Contato 3')
-
-def historia(request):
-    return HttpResponse('Historia 4')

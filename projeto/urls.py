@@ -19,5 +19,5 @@ from django.urls import path, include # o include chama o arquivo urls.py que fi
 
 
 urlpatterns = [
-  path('', include('recipes.urls')) # Caminho onde ficas os path ou páginas. a string vazia é a raiz do site
+  path('', include('app_recipes.urls')) # Caminho onde ficas os path ou páginas. a string vazia é a raiz do site
 ]
