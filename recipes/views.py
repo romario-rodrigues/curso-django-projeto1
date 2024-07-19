@@ -8,5 +8,5 @@ Essa função renderiza um arquivo html que está dentro de
 recipes/templaes/home.html.
 '''
 def home(request):
-    return render(request, 'recipes/home.html')
+    return render(request, 'recipes/pages/home.html')
 
